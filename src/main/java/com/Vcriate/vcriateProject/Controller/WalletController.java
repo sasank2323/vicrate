@@ -59,7 +59,7 @@ public class WalletController {
     @GetMapping("/ss")
     public ResponseEntity<Integer> gethistory(@pathVariable int ss)
     {
-        return 1;
+        return 2;
     }
 
     @GetMapping("/history/{userId}")
