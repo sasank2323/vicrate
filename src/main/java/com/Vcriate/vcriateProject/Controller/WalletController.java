@@ -56,6 +56,12 @@ public class WalletController {
         }
     }
 
+    @GetMapping("/ss")
+    public ResponseEntity<Integer> gethistory(@pathVariable int ss)
+    {
+        return 1;
+    }
+
     @GetMapping("/history/{userId}")
     public ResponseEntity<List<Transaction>> getHistory(@PathVariable Long userId) {
         try {
